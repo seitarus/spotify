@@ -13,7 +13,7 @@ struct AlbumDetailsResponse : Codable {
     let available_markets: [String]
     let external_urls: [String: String]
     let id: String
-    let images: [APIImages]
+    let images: [APIImage]
     let label: String
     let name: String
     let tracks: TracksResponse

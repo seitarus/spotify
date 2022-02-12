@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct APIImages: Codable {
+struct APIImage: Codable {
     let url: String
 }
